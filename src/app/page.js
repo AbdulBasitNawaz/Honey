@@ -354,7 +354,10 @@ export default function Home() {
       <footer>
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Naeemihoney. Sourced sustainably, verified pure, 100% money-back warranty.</p>
-          <ul className="footer-socials">
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-gray)', marginTop: '0.5rem', opacity: 0.8 }}>
+            Designed & Developed by <span style={{ color: 'var(--gold)', fontWeight: 600 }}>Zahra</span>
+          </p>
+          <ul className="footer-socials" style={{ marginTop: '1rem' }}>
             <li><a href={whatsappLink1} target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
             <li><a href="#">Instagram</a></li>
             <li><a href="#">Facebook</a></li>
